@@ -3,5 +3,5 @@
   <rect x="24" y="24" width="552" height="402" fill="none" stroke="#4b5563" stroke-width="2" stroke-dasharray="8 8"/>
   <circle cx="300" cy="190" r="70" fill="#374151"/>
   <path d="M260 195 L290 225 L345 165" stroke="#9ca3af" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="300" y="330" font-family="Arial, sans-serif" font-size="26" fill="#e5e7eb" text-anchor="middle">Producto 1</text>
+  <text x="300" y="330" font-family="Arial, sans-serif" font-size="26" fill="#e5e7eb" text-anchor="middle">Agendas corporativas</text>
 </svg>
