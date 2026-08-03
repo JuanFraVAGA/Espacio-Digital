@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#3a2418"/>
+  <rect x="24" y="24" width="552" height="402" fill="none" stroke="#6b4a35" stroke-width="2" stroke-dasharray="8 8"/>
+  <rect x="240" y="140" width="120" height="120" fill="#5a3d2b"/>
+  <circle cx="300" cy="200" r="30" fill="#9ca3af"/>
+  <text x="300" y="330" font-family="Arial, sans-serif" font-size="26" fill="#e5e7eb" text-anchor="middle">Producto 4</text>
+</svg>
