@@ -1,19 +1,19 @@
 const DIFERENCIALES = [
   {
-    title: "Atención directa",
-    description: "Hablás con quienes van a resolver tu pedido, sin intermediarios.",
+    title: "La primera impresión",
+    description: "Es la primera impresión que recibe un cliente de tu empresa.",
   },
   {
-    title: "Calidad garantizada",
-    description: "Cada producto pasa por un control antes de llegar a tus manos.",
+    title: "Un año entero",
+    description: "Es la agenda que acompañará a un ejecutivo durante todo el año.",
   },
   {
-    title: "Tiempos claros",
-    description: "Te decimos de entrada cuánto va a tardar y cumplimos con eso.",
+    title: "Respaldo profesional",
+    description: "Es la carpeta que respalda una propuesta importante.",
   },
   {
-    title: "Precios a medida",
-    description: "Cotizamos según tu proyecto, sin cargos ocultos.",
+    title: "Tu identidad en cada detalle",
+    description: "Es la identidad de tu empresa representada en cada detalle.",
   },
 ];
 
@@ -25,6 +25,9 @@ export default function Diferenciales() {
     >
       <div className="mx-auto max-w-6xl px-6 py-20">
         <h2 className="text-3xl font-bold tracking-tight">Qué nos diferencia</h2>
+        <p className="mt-4 max-w-2xl text-foreground/70">
+          Entendemos que una impresión no es solo tinta sobre papel.
+        </p>
         <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {DIFERENCIALES.map((item) => (
             <div
@@ -38,6 +41,10 @@ export default function Diferenciales() {
             </div>
           ))}
         </div>
+        <p className="mt-12 max-w-2xl text-foreground/70">
+          Nuestro compromiso es ayudarte a que cada pieza comunique la calidad
+          y el prestigio de tu marca.
+        </p>
       </div>
     </section>
   );

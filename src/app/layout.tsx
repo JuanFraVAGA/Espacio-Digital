@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Espacio Digital",
+  title: "Espacio Digital | Soluciones Corporativas de Impresión",
   description:
-    "Espacio Digital: conocé quiénes somos, qué hacemos, qué nos diferencia y nuestros productos. Contactanos para pedir tu cotización.",
+    "Espacio Digital: soluciones integrales de impresión para empresas que buscan calidad, consistencia y un proveedor confiable. Solicita tu cotización.",
 };
 
 export default function RootLayout({

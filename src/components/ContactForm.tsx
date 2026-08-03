@@ -31,7 +31,7 @@ export default function ContactForm() {
 
       if (!response.ok) {
         const data = await response.json().catch(() => null);
-        setErrorMessage(data?.error ?? "No pudimos enviar tu consulta. Probá de nuevo.");
+        setErrorMessage(data?.error ?? "No pudimos enviar tu consulta. Intenta de nuevo.");
         setStatus("error");
         return;
       }
@@ -39,7 +39,7 @@ export default function ContactForm() {
       form.reset();
       setStatus("success");
     } catch {
-      setErrorMessage("No pudimos enviar tu consulta. Probá de nuevo.");
+      setErrorMessage("No pudimos enviar tu consulta. Intenta de nuevo.");
       setStatus("error");
     }
   }
@@ -47,8 +47,8 @@ export default function ContactForm() {
   if (status === "success") {
     return (
       <div className="rounded-2xl border border-black/10 bg-foreground/[0.03] p-6 text-sm dark:border-white/10">
-        ¡Gracias! Recibimos tu consulta y te vamos a contactar a la brevedad
-        con tu cotización.
+        ¡Gracias! Recibimos tu consulta y te contactaremos a la brevedad con
+        tu cotización.
       </div>
     );
   }
@@ -92,7 +92,7 @@ export default function ContactForm() {
       </div>
       <div className="grid gap-1.5">
         <label htmlFor="message" className="text-sm font-medium">
-          Contanos qué necesitás cotizar *
+          Cuéntanos qué necesitas cotizar *
         </label>
         <textarea
           id="message"

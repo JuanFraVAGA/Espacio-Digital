@@ -8,12 +8,12 @@ export default function Hero() {
           Espacio Digital
         </p>
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-          Ideas que se convierten en soluciones a medida
+          Soluciones Corporativas de Impresión
         </h1>
         <p className="mt-6 text-lg text-foreground/70">
-          Acompañamos a nuestros clientes en cada etapa: desde entender lo que
-          necesitan hasta entregar un producto terminado. Contanos tu proyecto
-          y armamos una cotización a tu medida.
+          Ofrecemos soluciones integrales de impresión para empresas que
+          buscan calidad, consistencia y un proveedor confiable. Cuéntanos tu
+          proyecto y armamos una cotización a tu medida.
         </p>
         <div className="mt-8 flex flex-wrap gap-4">
           <Link

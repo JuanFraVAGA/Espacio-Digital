@@ -1,10 +1,10 @@
 import Image from "next/image";
 
 const PRODUCTOS = [
-  { src: "/products/producto-1.svg", name: "Producto 1" },
-  { src: "/products/producto-2.svg", name: "Producto 2" },
-  { src: "/products/producto-3.svg", name: "Producto 3" },
-  { src: "/products/producto-4.svg", name: "Producto 4" },
+  { src: "/products/producto-1.svg", name: "Agendas corporativas" },
+  { src: "/products/producto-2.svg", name: "Tarjetas de presentación" },
+  { src: "/products/producto-3.svg", name: "Carpetas institucionales" },
+  { src: "/products/producto-4.svg", name: "Material publicitario" },
 ];
 
 export default function Productos() {
@@ -13,7 +13,7 @@ export default function Productos() {
       <div className="mx-auto max-w-6xl px-6 py-20">
         <h2 className="text-3xl font-bold tracking-tight">Nuestros productos</h2>
         <p className="mt-4 max-w-2xl text-foreground/70">
-          Una muestra de lo que hacemos. Contanos qué necesitás y te
+          Una muestra de lo que hacemos. Cuéntanos qué necesitas y te
           preparamos una propuesta a tu medida.
         </p>
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

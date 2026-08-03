@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const NAV_LINKS = [
-  { href: "#nosotros", label: "Qué hacemos" },
+  { href: "#servicios", label: "Qué hacemos" },
   { href: "#diferenciales", label: "Por qué elegirnos" },
   { href: "#productos", label: "Productos" },
   { href: "#contacto", label: "Contacto" },
