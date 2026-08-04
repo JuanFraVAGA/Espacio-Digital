@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Reveal from "./Reveal";
 
 const PRODUCTOS = [
   { src: "/products/producto-1.svg", name: "Agendas corporativas" },
@@ -11,28 +12,29 @@ export default function Productos() {
   return (
     <section id="productos" className="border-t border-black/10 dark:border-white/10">
       <div className="mx-auto max-w-6xl px-6 py-20">
-        <h2 className="text-3xl font-bold tracking-tight">Nuestros productos</h2>
-        <p className="mt-4 max-w-2xl text-foreground/70">
-          Una muestra de lo que hacemos. Cuéntanos qué necesitas y te
-          preparamos una propuesta a tu medida.
-        </p>
+        <Reveal>
+          <h2 className="text-3xl font-bold tracking-tight">Nuestros productos</h2>
+          <p className="mt-4 max-w-2xl text-foreground/70">
+            Una muestra de lo que hacemos. Cuéntanos qué necesitas y te
+            preparamos una propuesta a tu medida.
+          </p>
+        </Reveal>
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {PRODUCTOS.map((producto) => (
-            <figure
-              key={producto.src}
-              className="overflow-hidden rounded-2xl border border-black/10 dark:border-white/10"
-            >
-              <Image
-                src={producto.src}
-                alt={producto.name}
-                width={600}
-                height={450}
-                className="h-auto w-full"
-              />
-              <figcaption className="px-4 py-3 text-sm font-medium">
-                {producto.name}
-              </figcaption>
-            </figure>
+            <Reveal key={producto.src}>
+              <figure className="overflow-hidden rounded-2xl border border-black/10 transition-shadow duration-300 hover:cmyk-shadow dark:border-white/10">
+                <Image
+                  src={producto.src}
+                  alt={producto.name}
+                  width={600}
+                  height={450}
+                  className="h-auto w-full"
+                />
+                <figcaption className="px-4 py-3 text-sm font-medium">
+                  {producto.name}
+                </figcaption>
+              </figure>
+            </Reveal>
           ))}
         </div>
       </div>

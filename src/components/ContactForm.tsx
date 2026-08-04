@@ -64,7 +64,7 @@ export default function ContactForm() {
           name="name"
           type="text"
           required
-          className="rounded-lg border border-black/15 bg-background px-3 py-2 text-sm outline-none focus:border-foreground/40 dark:border-white/15"
+          className="rounded-lg border border-black/15 bg-background px-3 py-2 text-sm outline-none focus:border-cyan dark:border-white/15"
         />
       </div>
       <div className="grid gap-1.5">
@@ -76,7 +76,7 @@ export default function ContactForm() {
           name="email"
           type="email"
           required
-          className="rounded-lg border border-black/15 bg-background px-3 py-2 text-sm outline-none focus:border-foreground/40 dark:border-white/15"
+          className="rounded-lg border border-black/15 bg-background px-3 py-2 text-sm outline-none focus:border-cyan dark:border-white/15"
         />
       </div>
       <div className="grid gap-1.5">
@@ -87,7 +87,7 @@ export default function ContactForm() {
           id="phone"
           name="phone"
           type="tel"
-          className="rounded-lg border border-black/15 bg-background px-3 py-2 text-sm outline-none focus:border-foreground/40 dark:border-white/15"
+          className="rounded-lg border border-black/15 bg-background px-3 py-2 text-sm outline-none focus:border-cyan dark:border-white/15"
         />
       </div>
       <div className="grid gap-1.5">
@@ -99,7 +99,7 @@ export default function ContactForm() {
           name="message"
           required
           rows={4}
-          className="rounded-lg border border-black/15 bg-background px-3 py-2 text-sm outline-none focus:border-foreground/40 dark:border-white/15"
+          className="rounded-lg border border-black/15 bg-background px-3 py-2 text-sm outline-none focus:border-cyan dark:border-white/15"
         />
       </div>
 
